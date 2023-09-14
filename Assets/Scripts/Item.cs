@@ -12,7 +12,7 @@ public class Item : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(Vector3.up * 20 * Time.deltaTime);
+        transform.Rotate(Vector3.up * 20 * Time.deltaTime);     // Rotate() 함수로 계속 회전하도록 효과 내기
     }
 
 }
